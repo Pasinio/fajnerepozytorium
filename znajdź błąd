@@ -1,0 +1,40 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css" type="text/css"
+</head>
+
+<body>
+    
+    <div id="kalkulator"
+        
+        <input type="text" id="display">
+        <br>
+        <input type="button" value="C" id="przyciski" onclick="addtoscreen('c')">
+        <input type="button" value="<--" id="przyciski" onclick="backspace()">
+        <input type="button" value="/" id="przyciski" onclick="addtoscreen('/')">
+        <br>
+        <input type="button" value="7" id="przyciski" onclick="addtoscreen('7')">
+        <input type="button" value="8" id="przyciski" onclick="addtoscreen('8')">
+        <input type="button" value="9" id="przyciski" onclick="addtoscreen('9')">
+        <input type="button" value="*" id="przyciski" onclick="addtoscreen('*')">
+        <br>
+        <input type="button" value="4" id="przyciski" onclick="addtoscreen('4')">
+        <input type="button" value="5" id="przyciski" onclick="addtoscreen('5')">
+        <input type="button" value="6" id="przyciski" onclick="addtoscreen('6')">
+        <input type="button" value="-" id="przyciski" onclick="addtoscreen('-')">
+        <br>
+        <input type="button" value="1" id="przyciski" onclick="addtoscreen('1')">
+        <input type="button" value="2" id="przyciski" onclick="addtoscreen('2')">
+        <input type="button" value="3" id="przyciski" onclick="addtoscreen('3')">
+        <input type="button" value="+" id="przyciski" onclick="addtoscreen('+')">
+        <br>
+        <input type="button" value="=" id="suma" onclick="suma()">
+        <input type="button" value="0" id="przyciski" onclick="addtoscreen('0')">
+        <input type="button" value="." id="przyciski" onclick="addtoscreen('.')">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
